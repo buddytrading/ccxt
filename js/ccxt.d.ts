@@ -181,6 +181,7 @@ import whitebitPro from './src/pro/whitebit.js';
 import wooPro from './src/pro/woo.js';
 import woofiproPro from './src/pro/woofipro.js';
 import xtPro from './src/pro/xt.js';
+import yellow from './src/pro/yellow.js';
 declare const exchanges: {
     ace: typeof ace;
     alpaca: typeof alpaca;
@@ -290,6 +291,7 @@ declare const exchanges: {
     yobit: typeof yobit;
     zaif: typeof zaif;
     zonda: typeof zonda;
+    yellow: typeof yellow;
 };
 declare const pro: {
     alpaca: typeof alpacaPro;
@@ -360,6 +362,7 @@ declare const pro: {
     woo: typeof wooPro;
     woofipro: typeof woofiproPro;
     xt: typeof xtPro;
+    yellow: typeof yellow;
 };
 declare const ccxt: {
     version: string;
@@ -435,6 +438,7 @@ declare const ccxt: {
         woo: typeof wooPro;
         woofipro: typeof woofiproPro;
         xt: typeof xtPro;
+        yellow: typeof yellow;
     };
 } & {
     ace: typeof ace;
@@ -545,6 +549,7 @@ declare const ccxt: {
     yobit: typeof yobit;
     zaif: typeof zaif;
     zonda: typeof zonda;
+    yellow: typeof yellow;
 } & typeof functions & typeof errors;
 export { version, Exchange, exchanges, pro, Precise, functions, errors, BaseError, ExchangeError, AuthenticationError, PermissionDenied, AccountNotEnabled, AccountSuspended, ArgumentsRequired, BadRequest, BadSymbol, OperationRejected, NoChange, MarginModeAlreadySet, MarketClosed, InsufficientFunds, InvalidAddress, AddressPending, InvalidOrder, OrderNotFound, OrderNotCached, OrderImmediatelyFillable, OrderNotFillable, DuplicateOrderId, ContractUnavailable, NotSupported, InvalidProxySettings, ExchangeClosedByUser, OperationFailed, NetworkError, DDoSProtection, RateLimitExceeded, ExchangeNotAvailable, OnMaintenance, InvalidNonce, RequestTimeout, BadResponse, NullResponse, CancelPending, Int, int, Str, Strings, Num, Bool, IndexType, OrderSide, OrderType, MarketType, SubType, Dict, NullableDict, List, NullableList, Fee, OHLCV, OHLCVC, implicitReturnType, Market, Currency, Dictionary, MinMax, FeeInterface, TradingFeeInterface, MarketInterface, Trade, Order, OrderBook, Ticker, Transaction, Tickers, CurrencyInterface, Balance, BalanceAccount, Account, PartialBalances, Balances, DepositAddress, WithdrawalResponse, DepositAddressResponse, FundingRate, FundingRates, Position, BorrowInterest, LeverageTier, LedgerEntry, DepositWithdrawFeeNetwork, DepositWithdrawFee, TransferEntry, CrossBorrowRate, IsolatedBorrowRate, FundingRateHistory, OpenInterest, Liquidation, OrderRequest, CancellationRequest, FundingHistory, MarginMode, Greeks, Conversion, Option, LastPrice, Leverage, MarginModification, Leverages, LastPrices, Currencies, TradingFees, MarginModes, OptionChain, IsolatedBorrowRates, CrossBorrowRates, TransferEntries, LeverageTiers, ace, alpaca, ascendex, bequant, bigone, binance, binancecoinm, binanceus, binanceusdm, bingx, bit2c, bitbank, bitbay, bitbns, bitcoincom, bitfinex, bitfinex2, bitflyer, bitget, bithumb, bitmart, bitmex, bitopro, bitpanda, bitrue, bitso, bitstamp, bitteam, bitvavo, bl3p, blockchaincom, blofin, btcalpha, btcbox, btcmarkets, btcturk, bybit, cex, coinbase, coinbaseadvanced, coinbaseexchange, coinbaseinternational, coincheck, coinex, coinlist, coinmate, coinmetro, coinone, coinsph, coinspot, cryptocom, currencycom, delta, deribit, digifinex, exmo, fmfwio, gate, gateio, gemini, hitbtc, hitbtc3, hollaex, htx, huobi, huobijp, hyperliquid, idex, independentreserve, indodax, kraken, krakenfutures, kucoin, kucoinfutures, kuna, latoken, lbank, luno, lykke, mercado, mexc, ndax, novadax, oceanex, okcoin, okx, onetrading, oxfun, p2b, paymium, phemex, poloniex, poloniexfutures, probit, timex, tokocrypto, tradeogre, upbit, vertex, wavesexchange, wazirx, whitebit, woo, woofipro, xt, yobit, zaif, zonda, };
 export default ccxt;

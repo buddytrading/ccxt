@@ -188,6 +188,7 @@ var whitebit$1 = require('./src/pro/whitebit.js');
 var woo$1 = require('./src/pro/woo.js');
 var woofipro$1 = require('./src/pro/woofipro.js');
 var xt$1 = require('./src/pro/xt.js');
+var yellow = require('./src/pro/yellow.js')
 
 //-----------------------------------------------------------------------------
 // this is updated by vss.js when building
@@ -302,6 +303,7 @@ const exchanges = {
     'yobit': yobit,
     'zaif': zaif,
     'zonda': zonda,
+    'yellow': yellow,
 };
 const pro = {
     'alpaca': alpaca$1,
@@ -372,6 +374,7 @@ const pro = {
     'woo': woo$1,
     'woofipro': woofipro$1,
     'xt': xt$1,
+    'yellow': yellow,
 };
 pro.exchanges = Object.keys(pro);
 pro['Exchange'] = Exchange["default"]; // now the same for rest and ts
@@ -528,6 +531,7 @@ exports.xt = xt;
 exports.yobit = yobit;
 exports.zaif = zaif;
 exports.zonda = zonda;
+exports.yellow = yellow;
 exports["default"] = ccxt;
 exports.exchanges = exchanges;
 exports.pro = pro;
