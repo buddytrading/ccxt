@@ -218,6 +218,7 @@ import whitebitPro from './src/pro/whitebit.js';
 import wooPro from './src/pro/woo.js';
 import woofiproPro from './src/pro/woofipro.js';
 import xtPro from './src/pro/xt.js';
+import yellow from './src/pro/yellow.js';
 const exchanges = {
     'ace': ace,
     'alpaca': alpaca,
@@ -327,6 +328,7 @@ const exchanges = {
     'yobit': yobit,
     'zaif': zaif,
     'zonda': zonda,
+    'yellow': yellow,
 };
 const pro = {
     'alpaca': alpacaPro,
@@ -397,6 +399,7 @@ const pro = {
     'woo': wooPro,
     'woofipro': woofiproPro,
     'xt': xtPro,
+    'yellow': yellow,
 };
 for (const exchange in pro) {
     // const ccxtExchange = exchanges[exchange]
